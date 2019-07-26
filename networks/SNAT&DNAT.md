@@ -2,7 +2,7 @@
 
 在linux操作系统中，Netfilter组件是集成在linux内核中扩展各种网络服务的结构化底层框架，在内核级提供防火墙功能。内核中选取五个位置放了五个hook(勾子) function(INPUT、OUTPUT、FORWARD、PREROUTING、POSTROUTING)，而这五个hook function向用户开放，用户可以通过一个命令工具（iptables）向其写入规则。
 
-![Image](https://github.com/WhiteSmithFloyd/ress/blob/master/imgs/networks/20171023124826203.jpg)
+![https://github.com/WhiteSmithFloyd/ress/blob/master/imgs/networks/20171023124826203.jpg]()
 
 ## 报文流向：
      流入本机：PREROUTING --> INPUT-->用户空间进程
